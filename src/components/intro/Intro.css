@@ -1,0 +1,27 @@
+.intro-container {
+    display: flex;
+    padding: 100px;
+    padding-top: calc(var(--header-height) + 1.5rem)
+}
+.side-intro {
+    padding: 20px;
+}
+.main-intro {
+    width: 60%;
+}
+.profile-img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 10px solid #ffffff;
+}
+.social_icon {
+    color: var(--title-color);
+}
+a:hover {
+    text-decoration: underline;
+}
+ul,i {
+    padding-top: 10px;
+    padding-right: 10px;
+}
