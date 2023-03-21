@@ -1,19 +1,21 @@
 .intro-container {
+    max-width: 996px;
     display: flex;
-    padding: 100px;
-    padding-top: calc(var(--header-height) + 1.5rem)
+   justify-content: space-around;
+    height: 100vh;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
 }
-.side-intro {
-    padding: 20px;
-}
+
 .main-intro {
-    width: 60%;
+  width: 50%;
 }
 .profile-img {
     height: 200px;
     width: 200px;
     border-radius: 50%;
-    border: 10px solid #ffffff;
+    border: 2px solid blanchedalmond;
 }
 .social_icon {
     color: var(--title-color);
@@ -24,4 +26,7 @@ a:hover {
 ul,i {
     padding-top: 10px;
     padding-right: 10px;
+}
+.button {
+    padding: .70rem 1rem;
 }

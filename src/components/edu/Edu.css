@@ -1,0 +1,31 @@
+.edu-container {
+  display: flex;
+}
+.uni-edu h1 {
+  text-align: center;
+}
+.uni-edu h3 {
+  font-size: 1.5rem;
+}
+.uni-edu h4, strong {
+  font-size: 1rem;
+}
+.uni-edu li {
+  font-size: 1rem;
+}
+ul {
+  list-style: circle;
+}
+.rounder {
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  background-color: var(--text-color);
+  border-radius: 50%;
+}
+.line {
+  display: block;
+  width: 1px;
+  height: 100%;
+  background-color: var(--text-color);
+}
